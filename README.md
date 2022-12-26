@@ -5,9 +5,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## TECH STACK
 Angular 15.0.4
+
 NGRX
+
 Bootstrap
-NGx Bootsrap
+
+NGX Bootsrap Modal
 
 ## Development server
 
