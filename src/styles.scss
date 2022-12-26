@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+
+@import "~/../styles/common";
+
+:root {
+    --background-color: #000000;
+    --primary-color: #ffffff;
+    --secondary-color: #9c9c9c;
+    --accent-color: #e50914;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    color: var(--primary-color);
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: var(--background-color);
+}

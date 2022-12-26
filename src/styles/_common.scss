@@ -1,0 +1,29 @@
+
+input,
+button,
+submit {
+    border: none;
+}
+
+
+a{
+    color: #79b8f3;
+    text-decoration: none;
+}
+
+
+.fw-500{
+    font-weight: 500;
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+.secondary-color{
+    color: var(--secondary-color);
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+<div class="position-relative overflow-hidden" (mouseleave)="showLeftArrow = false; showRightArrow = false">
+    <div class="slider" #slider (mouseover)="mouseOverSlider($event)" >
+        <ng-container *ngFor="let movie of movies$ | async">
+            <mflix-movie [movie]="movie"></mflix-movie>
+        </ng-container>
+    </div>
+    
+    <a *ngIf="showLeftArrow"(click)="slide('left')" class="left">‹</a>
+    <a *ngIf="showRightArrow" (click)="slide('right')"class="right">›</a>
+    
+</div>
+

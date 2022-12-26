@@ -1,10 +1,19 @@
 # Mflix
+This project is a responsive movie database that uses a NODEJS API to fetch a list of movies and allow filtering based on genres. 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+
+## TECH STACK
+Angular 15.0.4
+NGRX
+Bootstrap
+NGx Bootsrap
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+Run `node index.js` to run Node Server. Navigate to `http://localhost:5000/`. 
 
 ## Code scaffolding
 

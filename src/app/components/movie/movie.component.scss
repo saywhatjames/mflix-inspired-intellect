@@ -1,0 +1,34 @@
+
+.genre{
+    color: var(--primary-color);
+    &:not(:last-child){
+        &:after{
+            content: '|';
+            padding-left: 0.25rem;
+            padding-right: 0.25rem;
+        }
+    }
+}
+
+.language{
+    color: var(--accent-color);
+    height: 1.25rem;
+}
+
+img{
+    width: 16rem;
+    height: 24rem;
+}
+
+.rating{
+    background-color: #2b32c5;
+    color: var(--primary-color);
+    width: 6rem;
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    padding: 0.25rem 0.25rem;
+    margin-top: 0.5rem;
+}

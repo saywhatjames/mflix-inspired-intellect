@@ -1,0 +1,10 @@
+<div class="d-flex flex-column cursor-pointer p-3 " (click)="showDetails(movie._id)">
+    <img [src]="movie.poster" />
+    <div class="d-flex pt-3">
+        <span class="genre" *ngFor="let genre of movie.genres">{{genre}}</span>
+    </div>
+    <div class="language accent">
+        <span *ngFor="let lang of movie.languages">{{lang}}</span>
+    </div>
+    <div class="rating" *ngIf="movie.tomatoes.critic?.rating">{{movie.tomatoes.critic?.rating}} / 10</div>
+</div>
