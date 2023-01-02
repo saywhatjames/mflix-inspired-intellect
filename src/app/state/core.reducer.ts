@@ -5,7 +5,6 @@ import * as MenuReducer from "./menu/menu.reducer";
 
 export const reducers: ActionReducerMap<State> = {
   movies: MoviesReducer.reducer,
-  initialMoviesState: MoviesReducer.reducer,
   menu: MenuReducer.reducer
 };
 
