@@ -43,6 +43,8 @@ export class SliderComponent {
       this.offset -= this.offsetInterval
     }
 
+    console.log(this.slider)
+
     this.slider.nativeElement.style.transform = `translateX(${this.offset}px)`;
     this.mouseOverSlider(this.slider.nativeElement);
   }

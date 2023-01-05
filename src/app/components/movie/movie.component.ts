@@ -30,4 +30,11 @@ export class MovieComponent {
     this.modalRef = this.modalService.show(DetailsComponent, Object.assign({}, { class: 'modal-mflix' }));
 
   }
+
+  handleImageError(event: ErrorEvent){
+    if(event.target){let target = event.target as HTMLImageElement;
+      target.src = "../../assets/images/error.png"
+    };
+    
+  }
 }

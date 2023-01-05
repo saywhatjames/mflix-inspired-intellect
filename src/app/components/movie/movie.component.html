@@ -1,5 +1,5 @@
 <div class="d-flex flex-column cursor-pointer p-3 " (click)="showDetails(movie._id)">
-    <img [src]="movie.poster" />
+    <img [src]="movie.poster" (error)="handleImageError($event)" />
     <div class="d-flex pt-3">
         <span class="genre" *ngFor="let genre of movie.genres">{{genre}}</span>
     </div>
